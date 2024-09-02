@@ -3,6 +3,12 @@ from app.routes import predict
 from fastapi.responses import JSONResponse
 app = FastAPI()
 
+
+@app.get("/")
+def check():
+    return JSONResponse(content={"message": "API is up and running"})
+
+
 @app.get("/health")
 def health_check():
     return JSONResponse(content={"message": "API is up and running"})
