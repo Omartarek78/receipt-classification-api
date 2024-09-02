@@ -1,1 +1,1 @@
-# receipt_classification_api
+# receipt-classification-api
