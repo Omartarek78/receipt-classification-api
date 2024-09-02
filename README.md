@@ -1,11 +1,11 @@
 # Receipt Classification API
 
-- A FastAPI application for receipt classification using a trained model. This API allows users to upload images of receipts and receive predictions on whether the image contains a Handwritten receipt or a receipt or paper, along with confidence levels.
+- A FastAPI application for receipt classification using a trained model. This API allows users to upload images of receipts and receive predictions on whether the image contains a Handwritten receipt or a receipt or a paper, along with confidence levels.
 
 ## Features
 
 - Upload images of receipts to be classified by a trained model.
-- Get predictions on whether the image contains a Handwritten receipt or a receipt or paper.
+- Get predictions on whether the image contains a Handwritten receipt or a receipt or a paper.
 - Receive confidence levels for the predictions.
 
 ## Getting Started
