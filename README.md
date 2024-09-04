@@ -37,7 +37,7 @@
 ## Running the API
 - To start the FastAPI application, use:
     ```bash
-    uvicorn app.main:app --reload
+    uvicorn main:app --reload
 ## Example
 - You can use curl or any HTTP client to send a request:
    ```bash
